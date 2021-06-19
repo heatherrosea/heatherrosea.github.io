@@ -1,4 +1,4 @@
-/* Desktop Views ****************************/
+ /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
  
 .menu {
@@ -97,9 +97,9 @@ p {
   
   /* WEATHER SUMMARY */
 
-#hero-img {
+.hero-img {
   width: 100%;
-  border-radius: 10px;
+  margin-bottom: 5%;
 }
 
 .stats {
@@ -131,18 +131,50 @@ p {
 /* WEATHER SUMMARY */
   
   
-
-/* CARDS */
-
   
-  .cards {
+  /* GALLERY */
+
+.weather-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-   }
+}
+
+.gallery {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gallery:hover {
+      box-shadow: 0 0 25px #4F6D7A;
+}
+
+figcaption {
+  text-align: center;
+  padding: 5%;
+  color: #4F6D7A;
+  font-size: 1.1em;
+}
   
-  /* CARDS */
+  picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.75s;
+  }
+
+/* GALLERY */
+  
+  
+  form fieldset {
+
+  width: 50%;
+}
+  
+  
+  
   
   }
+
+
