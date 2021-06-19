@@ -169,5 +169,42 @@
   .town-h {
   padding-top: 5%;
 }
+	
+	
+	
+    /* GALLERY */
+
+.weather-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+figcaption {
+  text-align: center;
+  padding: 5%;
+  color: #4F6D7A;
+  font-size: 1.1em;
+}
+
+  
+  
+  picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.75s;
+  }
+/* GALLERY */
+
+}
+
 
 }
