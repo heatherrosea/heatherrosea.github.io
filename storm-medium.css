@@ -1,5 +1,11 @@
 /* Tablet Views ******************************/
 @media only screen and (max-width: 37.5em) {
+  
+  
+form fieldset {
+  width: 70%;
+}
+  
 
   /* 5 DAY FORECAST */
   
@@ -106,10 +112,6 @@
 }
 /* BANNER */
 }
-
-
-
-
   
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
@@ -160,6 +162,39 @@
   
 
 /* CONTACT */
+  
+  
+  
+    /* GALLERY */
 
+.weather-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
+.gallery {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+figcaption {
+  text-align: center;
+  padding: 5%;
+  color: #4F6D7A;
+  font-size: 1.1em;
+}
+
+  
+  
+  picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.75s;
+  }
+/* GALLERY */
+
+}
