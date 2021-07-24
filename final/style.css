@@ -1,0 +1,682 @@
+main{
+    grid-template-columns: 1fr;
+    grid-gap: 1.2em;
+    padding: 2%;
+}
+body {
+    background-color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;  
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header, Title, and Catch */
+
+header {
+  background-color: #ffffff;
+  overflow: hidden; 
+}
+
+header .logo {
+  width: 5%;
+  padding: 1.5rem;
+  float: left;
+
+}
+
+
+#title {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+#catchphrase {
+  font-style: italic;
+  font-size: 80%;
+}
+
+
+
+/* Navigation */
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  width: 100%;
+  background-color: #c4dbad;
+
+}
+
+nav a, button a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1.1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3%;
+
+}
+
+nav a:hover, button:hover, form input.submitBtn:hover,  .fa:hover {
+  transition: border-width 0.3s ease-out;
+  font-weight: bold;
+}
+
+nav a::after, button::after, .fa::after, form input.submitBtn::after  {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+nav a:hover::after, button:hover::after, .fa:hover::after, form input.submitBtn:hover::after  {
+    width: 100%;
+}
+
+
+/* Section 1 */
+
+.hero-img {
+  margin-bottom: 1%;
+
+}
+
+#section-1 {
+  width: 100%;
+    height: 120%;
+}
+
+#hero-img, #contact-img{
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.hero-text-box {
+  width: 90%;
+  max-width: 100%;
+  border: 2px solid black;
+  padding: 2%;
+  background-color: rgba(167,211,131, 0.1);
+    margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 78%;
+  
+
+}
+
+
+.action {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: right;
+  margin-right: 30px;
+}
+
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #c4dbad; 
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-style: italic;
+  float: right;
+  cursor: pointer;
+  margin-right: 30px;
+
+}
+
+/* Section 2 */
+
+#section-2 {
+  background-color: white;
+}
+
+
+.section-head {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  font-size: 2rem;
+}
+
+.event-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.event-time, .event-address {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#event-img-1 {
+  position: absolute;
+  left: 10%;
+}
+
+
+.event-1, .event-2, .event-3 {
+  border: 2px solid black;
+  padding: 3%;
+  background-color: rgba(167,211,131, 0.1);
+  margin-bottom: 6%;
+}
+
+
+.event-button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #c4dbad; 
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0 auto;
+  cursor: pointer;
+
+}
+
+/* Section 3 */
+
+#section-3 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.business {
+    background-color: #c4dbad; 
+
+}
+
+.left-img {
+  width: 100%;
+}
+
+.right-img {
+  width: 100%;
+}
+
+
+.business-description, .business-description-left {
+  border: 2px solid black;
+  padding: 2% 2% 1%;
+  background-color: rgba(167,211,131, 0.1);
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+
+
+
+/* Section 4 */
+
+
+
+/* Section 5 */
+
+#contact-img {
+    margin-bottom: 3%;
+}
+
+.contact-text-box {
+  width: 100%;
+  max-width: 90%;
+  border: 2px solid black;
+  padding: 2%;
+  background-color: rgba(167,211,131, 0.1);
+	margin-right: auto;
+  margin-left: auto;
+}
+
+.fa {
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 30px;
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: #c4dbad; 
+  color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+#current-weather {
+  text-align: center;
+}
+
+
+/* 5 DAY FORECAST */
+
+table, th, td, tr {
+  border-collapse: collapse;
+  text-align: center;
+    border: 2px solid black;
+  padding: 3%;
+  background-color: rgba(167,211,131, 0.06);
+  margin-bottom: 6%;
+    }
+
+    td img {
+        width: 80%;
+    }
+
+  table {
+    width: 95%;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+ /* 5 DAY FORECAST */
+
+
+
+
+.menu {
+    display: none !important;
+  }
+
+
+
+.nav li {
+  display: inline-block;
+  padding: 1% 1% 1% 0;
+
+}
+
+
+/* JOIN */
+
+#join-heading {
+  text-align: center;
+}
+
+form fieldset {
+  background-color: rgba(167,211,131, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 2px solid black;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+form legend {
+  font-family: 'Montserrat', sans-serif;  
+  color: black;
+  font-weight: bold;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+form label.top {
+  font-family: 'Montserrat', sans-serif;  
+  color: black;
+}
+
+form label.top  {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input, form label.top select, textarea {
+    display: block;
+    font-size: .9rem;
+    border: solid 1px #C0D6DF;
+    border-radius: 10px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 90%;
+  font-family: 'Montserrat', sans-serif;  
+  
+}
+
+
+form label.side {
+  font-family: 'Montserrat', sans-serif;  
+    color: #4F6D7A;
+}
+
+
+form input.submitBtn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #c4dbad; 
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.buttonHolder { 
+  text-align: center; 
+}
+
+
+textarea {
+  height: 100px;
+}
+
+
+form label.top input:required {
+    border-left: #c4dbad solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #c4dbad solid 6px;
+}
+
+#bronze, #nonprofit, #silver, #gold {
+  background-color: white;
+  color: black;
+  height: 90%;
+}
+
+#memberships {
+  margin-top: 3%;
+  text-align: center;
+}
+
+
+#bronze:hover{
+        box-shadow: 0 0 25px #CD7F32;
+
+}
+
+#nonprofit:hover {
+        box-shadow: 0 0 25px #C0C0C0;
+
+}
+
+#silver:hover {
+      box-shadow: 0 0 25px #4F6D7A;
+}
+
+#gold:hover {
+        box-shadow: 0 0 25px #FFD700;
+
+}
+
+.perks {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3%;
+}
+
+.perks li {
+  padding: 3%;
+}
+
+
+  /* JOIN */
+
+
+/* CONTACT */
+
+
+.map {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.contact-location {
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.comment {
+  margin-bottom: 3%;
+}
+
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+
+#title {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+  
+  #catchphrase {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+    nav ul {
+  padding: .8%;
+
+}
+  
+  .hero-text-box {
+  height: 60%;
+  
+
+}
+  
+  
+  
+}
+
+
+
+ /* Desktop Views ****************************/
+@media only screen and (min-width: 60em) { 
+ 
+  
+  main{
+    display: grid;
+  }
+  
+.events{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  grid-gap: 2%;
+  }
+  
+  
+  #title {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 250%;
+}
+  
+  #catchphrase {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+  
+.hero-text-box {
+  width: 50%;
+  height: 40%;
+  border: 2px solid black;
+  padding: 2%;
+  background-color: rgba(255,255,255, 0.7);
+  position: absolute;
+	top: 25%;
+  left: 10%;
+}
+  
+  
+  .button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-style: italic;
+  float: right;
+  cursor: pointer;
+  margin-right: 30px;
+}
+  
+  #section-2 {
+    margin-top: 0%;
+  }
+  
+  
+  header .logo {
+  width: 3%;
+  padding: 1.5rem 3rem;
+  float: left;
+
+}
+  
+  
+  
+  
+  .left-img {
+  width: 24%;
+  float: left;
+  margin-left: 10%;
+}
+
+.right-img {
+  width: 24%;
+  float: right;
+  padding-right: 15%;
+}
+
+
+.business-description {
+  width: 45%;
+  max-width: 50%;
+  border: 2px solid black;
+  padding: 2% 2% 1%;
+  background-color: rgba(167,211,131, 0.1);
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  
+}
+
+.business-description-left {
+  width: 45%;
+  max-width: 50%;
+  border: 2px solid black;
+  padding: 2% 2% 1%;
+  background-color: rgba(167,211,131, 0.1);
+  display: inline-block;
+  float: right;
+  margin-right: 2%;
+  margin-bottom: 4%;
+}
+  
+   td img {
+        width: 30%;
+    }
+
+.current {
+    width: 50%;
+  margin-left: 25%;
+      display: inline-block;
+    
+  }
+  
+  
+  form {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+#levels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  grid-gap: 2%;
+  }
+  
+
+/* MAP */
+
+.location {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  margin-right: 8%;
+  padding: 0;
+  }
+
+  .map {
+    height: 98%;
+  }
+  
+  
+}
+
+
+.directory {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+
+
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+
+  .directory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} 
+
+
+/* Desktop Views ****************************/
+
+@media only screen and (min-width: 60em) {
+ 
+.directory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
