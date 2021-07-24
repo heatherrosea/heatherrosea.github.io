@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 230 Chamber of Commerce Join Page">
+    <title>Rapid City Chamber of Commerce Home Page</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,200&display=swap" rel="stylesheet">
+    
+ <link rel="stylesheet" href="heatherrosea.github.io/final/normalize.css">
+    <link rel="stylesheet" href="heatherrosea.github.io/final/style.css">
+  </head>  
+  
+  <body>
+    <header>    
+      <img class="logo" alt="Rapid City Chamber of Commerce Logo" src="https://cdn.glitch.com/09654fc4-2805-4a2b-9f67-acf59f8bf1e1%2FWebsite%20logo.png?v=1617805484541">
+      <h1 id="title">Rapid City Chamber of Commerce</h1>
+      <p id="catchphrase">Serving, Building, Uniting</p>
+    
+      <nav class="nav">
+        <ul>
+          <li><a class="menu" href="#">&#9776;</a></li>
+          <li class="active"><a href="heatherrosea.github.io/final/index.html">Home</a></li>
+          <li><a href="heatherrosea.github.io/final/city.html">City</a></li>
+          <li><a href="heatherrosea.github.io/final/join.html">Join</a></li>
+          <li><a href="heatherrosea.github.io/final/directory.html">Directory</a></li>
+          <li><a href="heatherrosea.github.io/final/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    
+  </header>
+  
+  <main>
+  
+         
+
+    
+   <section id="section-2">
+        <h3 id="join-heading">JOIN NOW</h3>
+         <form method="get" action="heatherrosea.github.io/final/membership.html">
+           <fieldset>
+             <legend>My Information</legend>
+             <label class="top">First Name: * <input type="text" name="firstname" pattern="[A-Za-z]{5,}" placeholder="first name" required></label>
+             <label class="top">Last Name: * <input type="text" name="lastname" pattern="[A-Za-z]{5,}" placeholder="last name" required></label>
+             <label class="top">Title <input type="text" name="title" pattern="[A-Za-z]{5,}" placeholder="title"></label>
+
+             <label class="top">Email: <input type="email" name="email" placeholder="example@email.com" required></label>
+             <label class="top">Phone Number: * <input type="tel" name="phone" placeholder="(123) 456 7890"></label>
+           </fieldset>
+           
+           
+            <fieldset>
+             <legend>Business Information</legend>
+             <label class="top">Business Name: * <input type="text" name="businessname" placeholder="business name" required></label>
+             <label class="top">Business Address: <input type="text" name="address" placeholder="123 main st"></label>
+             <label class="top">Business Website: <input type="url" name="url" pattern="[A-Za-z]{5,}" placeholder="business.com"></label>
+             <label class="top">Business Description: <textarea name="info"></textarea> </label>
+
+              
+              
+            </fieldset>
+            
+           <fieldset>
+              <legend>Membership Level</legend>
+            
+              
+              
+              <label class="top">Membership Level:
+                  <select name="level">
+                    <option name="select" value="select" selected disabled>Select Level</option>
+                    <option name="nonprofit" value="nonprofit">Non-profit ($100)</option>
+                    <option name="bronze" value="bronze">Bronze ($200)</option>
+                    <option name="silver" value="silver">Silver ($400)</option>
+                    <option name="gold" value="gold">Gold ($1000)</option>
+
+                </select>
+                
+      <section id="memberships">
+      <div class="events" id="levels">
+        <div class="event-1" id="nonprofit">
+          <p class="event-title">Nonprofit</p>
+          <p class="event-time">$100</p>
+          <p class="event-description"><strong>Perks include:</strong> </p>
+          <ul class="perks">
+          <li>Featured on directory listing</li>
+          <li>Access to specialized business trainings</li>
+          </ul>        </div>      
+
+
+        <div class="event-2" id="bronze">
+          <p class="event-title">Bronze</p>
+          <p class="event-time">$200</p>
+          <p class="event-description"><strong>Perks include:</strong> </p>
+          <ul class="perks">
+          <li>Featured on directory listing</li>
+          <li>Access to specialized business trainings</li>
+          <li>Features on social media posts</li>
+          </ul>
+        </div>
+
+        <div class="event-3" id="silver">
+          <p class="event-title">Silver</p>
+          <p class="event-time">$400</p>
+          <p class="event-description"><strong>Perks include:</strong> </p>
+          <ul class="perks">
+          <li>Featured on directory listing</li>
+          <li>Access to specialized business trainings</li>
+          <li>Features on social media posts</li>
+          <li>Luncheon tickets</li>
+
+          </ul>        </div>
+        <div class="event-3" id="gold">
+          <p class="event-title">Gold</p>
+          <p class="event-time">$1000</p>
+          <p class="event-description"><strong>Perks include:</strong> </p>
+          <ul class="perks">
+          <li>Featured on directory listing</li>
+          <li>Access to specialized business trainings</li>
+          <li>Features on social media posts</li>
+          <li>Luncheon tickets</li>
+          <li>Local sponsorships and advertisements</li>
+
+          </ul>          </div>
+      </div>
+    </section>
+                
+                
+                
+              </label>
+             
+           </fieldset>
+          
+           
+          <div class="buttonHolder">
+          
+            
+            <a href="heatherrosea.github.io/final/membership.html">
+          <input type="submit" value="Become a Member" name="join" class="submitBtn">
+           </a>
+           </div>   
+           
+     
+         </form>
+    </section>
+    
+
+  
+
+    </main>
+  
+
+</body>
+</html>  
