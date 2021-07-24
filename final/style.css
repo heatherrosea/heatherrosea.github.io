@@ -656,6 +656,7 @@ form label.top input:required:valid {
 .directory {
   display: grid;
   grid-template-columns: 1fr;
+	grid-gap: 2%;
 
 }
 
