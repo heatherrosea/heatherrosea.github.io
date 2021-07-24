@@ -1,0 +1,60 @@
+{
+  "business": [
+    {
+      "name": "First Interstate Bank",
+      "address": "333 West Blvd Ste 100, Rapid City, SD 57701",
+      "length": 14,
+      "order": 1,
+      "tel": "605-348-3322"
+    },
+    {
+      "name": "Rapid City Journal",
+      "address": "507 Main Street Rapid City",
+      "length": 30,
+      "order": 2,
+      "tel": "605-394-8300"
+    },
+    {
+      "name": "Western Dakota Tech",
+      "address": "800 Mickelson Dr, Rapid City, SD 57703",
+      "length": 6,
+      "order": 3,
+      "tel": "605-718-2400"
+    },
+    {
+      "name": "Black Hills Surgical Hospital",
+      "address": "216 Anamaria Drive. Rapid City, SD 57701",
+      "length": 9,
+      "order": 4,
+      "tel": "605-721-4700."
+    },
+    {
+      "name": "South Dakota School of Mines & Technology",
+      "address": "501 E St Joseph St, Rapid City, SD 57701",
+      "length": 3,
+      "order": 5,
+      "tel": "605-394-2511"
+    },
+    {
+      "name": "Black Hills Harley Davidson",
+      "address": "2820 Harley Dr, Rapid City, SD 57702",
+      "length": 17,
+      "order": 6,
+      "tel": "605-342-9362"
+    },
+    {
+      "name": "Scull Construction",
+      "address": "803 Industrial Ave, Rapid City, SD 57702",
+      "length": 23,
+      "order": 7,
+      "tel": "605-342-2379"
+    },
+    {
+      "name": "Black Hills Animal Hospital",
+      "address": "2909 Cambell St, Rapid City, SD 57701",
+      "length": 6,
+      "order": 8,
+      "tel": "605-343-6066"
+    }
+  ]
+}
