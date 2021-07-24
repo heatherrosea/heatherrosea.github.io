@@ -1,4 +1,4 @@
-const requestURL = 'https://heatherrosea.github.io/final/directory.json';
+const requestURL = '../final/directory.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -31,7 +31,7 @@ for (let i = 0; i < business.length; i++ ) {
     card.appendChild(image);
 
 
-    document.querySelector('div.businesses').appendChild(card);
+    document.querySelector('div.directory').appendChild(card);
     
   }
   });
